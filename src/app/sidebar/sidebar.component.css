@@ -1,182 +1,146 @@
 #sidebar {
-    flex-basis:  35%;
-    border-right: 1px solid #ccc;
-    display: flex;
-    flex-direction: column;
+  flex-basis: 35%;
+  border-right: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
 }
 
-    #sidebar_header{
-        flex-basis: 50px;
-        /* flex-basis: 35; */
-        background-color:#babdc1;  
-        display: flex;  
-        flex-direction: row;  
-        align-items: center; 
-        padding-left: 20px;
-        padding-right: 20px; 
-        padding-top: 10px;
-        padding-bottom: 10px; 
-        justify-content: space-between;
-       
-        
-        
-    }
+#sidebar_header {
+  flex-basis: 50px;
+  /* flex-basis: 35; */
+  background-color: #babdc1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  justify-content: space-between;
+}
 
-    .Dpcontaitner{
-        flex-basis: 43px;
-        height: 43px;
-               
-    }
-    img {
-        height: 100%;
-    }     
-   
-    
-    .Actionscontaitner{ 
-       height: 100%;
-       display: flex;
-       align-items: center;
-       display: flex;
-       flex-flow: row wrap;
-       
-      justify-content: space-around;
-       
+.Dpcontaitner {
+  flex-basis: 43px;
+  height: 43px;
+}
+img {
+  height: 100%;
+}
 
-       
-    }
-    .icon span{
-        padding-right: 7px;
-    }
+.Actionscontaitner {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
 
-    #searchBox{
-        flex-basis: 25;line-height: 2.5;
-        background-color: #f0f2f5;
-        border-right: 0.5px solid #ccc;
-        display: flex;
-        align-items: center; justify-content: center;
+  justify-content: space-around;
+}
+.icon span {
+  padding-right: 7px;
+}
 
-        
-                }
-                .img{
-                    width: 22px;
-                    
-                    position: absolute; 
-                    right: 679px;
-                    left: 20px;
-                    color: #f3f3f3;;
-                }
-                
-                input{
-                    width: 100%;
-                    height:100% ;
-                    border: none;
-                    border-radius: 20px;
-                    height: 70%;
-                    padding-left: 60px;
-                    color: #f0f2f5;
-                    outline:none;
-                    box-shadow: 0px 0px 3px #c4c1c1;
+#searchBox {
+  flex-basis: 25;
+  line-height: 2.5;
+  background-color: #f0f2f5;
+  border-right: 0.5px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img {
+  width: 22px;
 
-                }
-                ::placeholder{
-                    color:black;
-                    font-weight: 100%;
+  position: absolute;
+  right: 679px;
+  left: 20px;
+  color: #f3f3f3;
+}
 
-                }
+input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 20px;
+  height: 70%;
+  padding-left: 60px;
+  color: #f0f2f5;
+  outline: none;
+  box-shadow: 0px 0px 3px #c4c1c1;
+}
+::placeholder {
+  color: black;
+  font-weight: 100%;
+}
 
-                #noConversation{
-                    padding: 10%;
-                    text-align: center;
-                    font:  sans-serif;
-                    font-size: 15px;
-                    color:rgb(252,252,252);
-                }
+#noConversation {
+  padding: 10%;
+  text-align: center;
+  font: sans-serif;
+  font-size: 15px;
+  color: rgb(252, 252, 252);
+}
 
-                #sidebarContent{
-                    padding-right: 5px;
-                    z-index: 1;
-                    flex-grow: 1;
-                    overflow: scroll;
-                    max-height: 570px;
-                   
-                }
-                    .conversation{
-                        height:70px;
-                        display:flex;
-                        padding-right: 5px;
-                        cursor: pointer;
-                    }
+#sidebarContent {
+  padding-right: 5px;
+  z-index: 1;
+  flex-grow: 1;
+  overflow: scroll;
+  max-height: 570px;
+}
+.conversation {
+  height: 70px;
+  display: flex;
+  padding-right: 5px;
+  cursor: pointer;
+}
 
-                        /* :hover{
+/* :hover{
                             background-color: #f1f3f4;
                         } */
 
-                        .picture{
-                            flex-basis: 73px;
-                            height: 100%;
-                            display: flex;
-                            align-items: center;
-                            justify-content: center;
-                            padding: 10px 10px 10px 10px;
+.picture {
+  flex-basis: 73px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 10px 10px 10px;
+}
+img {
+  max-width: 100%;
+  height: 60px;
+}
 
-                          }
-                          img{
-                            max-width: 100%;
-                            height: 60px;
-                        }
-                                                
-                        .content{
-                            
-                            width: 1000%;
-                            border-bottom: 1px solid #f2f2f2 ;
-                            flex-grow: 1;
-                            
-                            padding: 10px 10px 1px 10px;
+.content {
+  width: 1000%;
+  border-bottom: 1px solid #f2f2f2;
+  flex-grow: 1;
 
-                            
-                    
-                    }
-                    .conversationHeader{
-
-                        display: flex;
-                        flex-direction: row;
-                        align-items: center;
-                        justify-content: space-between;
-                       
-                        
-                        
-                    }
-                    .time{
-                        color: #798890;
-                    }
-                    .message{
-                        
-                        color: #798890;
-                        
-
-                        
-
-                    }img{
-                        max-width: 47%;
-                        height: 15px;
-                        left: 62px;
-
-
-                        
-
-                    }
-                    .doubletick{
-
-                        max-width: 47%;
-                        height: 15px;
-                        left: 62px;
-                        display: flex;
-                        align-items: flex-start;
-
-                    }
-
-
-
-                    
-                    
-                    
+  padding: 10px 10px 1px 10px;
+}
+.conversationHeader {
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* align-items: center; */
+  /* justify-content: space-between; */
+}
+.time {
+  color: #798890;
+}
+.message {
+  color: #798890;
+}
+img {
+  max-width: 47%;
+  height: 15px;
+  left: 62px;
+}
+.doubletick {
+  max-width: 47%;
+  height: 15px;
+  left: 62px;
+  display: flex;
+  align-items: flex-start;
+}

@@ -45,15 +45,22 @@
             </div>
             <div class="content">
                 <div class="conversationHeader">
-                    <div class="name" >{{ conversation.name }}</div>
-                    <div  class="message"  >   <br>
-
-                      <img class="doubletick"
-                      src="../../assets/images/PngItem_3900365.png"> 
-                          {{ conversation.lastmessage }}</div>
-
-                
-                    <div class="time">{{ conversation.time }}</div>
+                  <div class="row">
+                    <div class="col-md-5" >{{ conversation.name }}</div>
+                    <div class="col-md-5"></div>
+                    <div class="col-md-2">{{ conversation.time }}</div>
+                  </div>
+                    <div style="display: inline-flex;">
+                      <div >
+                      
+                        <img 
+                        style="max-width:100%;"
+                        src="../../assets/images/PngItem_3900365.png"> 
+                      </div>
+                      <div >
+                              {{ conversation.lastmessage }}
+                      </div>
+                          </div>
                 </div></div>
 
                 
